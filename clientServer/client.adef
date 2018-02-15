@@ -1,0 +1,17 @@
+executables:
+{
+    client = (clientComp)
+}
+
+processes:
+{
+    run:
+    {
+        (client)
+    }
+}
+
+bindings:
+{
+    client.clientComp.command -> server.command
+}

@@ -1,0 +1,18 @@
+executables:
+{
+    server = (serverComp)
+}
+
+processes:
+{
+    run:
+    {
+        (server)
+    }
+}
+
+extern:
+{
+    server.serverComp.command
+}
+

@@ -1,0 +1,14 @@
+sources:
+{
+    server.c
+    worker.c
+    factoryCmd.c
+}
+
+provides:
+{
+    api:
+    {
+        command = $CURDIR/../command.api
+    }
+}
